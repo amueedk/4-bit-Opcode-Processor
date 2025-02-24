@@ -13,9 +13,11 @@ This project is a **4-bit opcode simulator** designed for a **16-bit architectur
 ## Features
 - Simulates a **4-bit opcode system** for a **16-bit architecture**.
 - Provides a graphical interface using Qt for easy interaction.
+- Implements a **step-by-step execution mode** for debugging instructions.
 - Supports **memory and register operations**, allowing users to perform arithmetic and logical computations.
 - Includes a built-in **assembler-like environment** where users can write, execute, and save their programs.
 - Allows loading **pre-written programs** from sample files for testing.
+- Provides **pop-up alerts** for execution halt notifications.
 - Future updates will introduce **I/O operations** to enhance simulation capabilities.
 
 ⚠️ **Note:** The simulator includes an I/O and keyboard interface, allowing for any future I/O implementations.
