@@ -92,9 +92,3 @@ The simulator includes a **widget for I/O operations**, but it is **not yet impl
 ## Contributions
 Feel free to fork, contribute, or report issues!
 
-## License
-This project is open-source under the MIT License.
-
----
-This README provides a comprehensive guide on how to use and extend the **4-bit opcode simulator for a 16-bit architecture**. Let me know if you need any modifications! 🚀
-
