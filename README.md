@@ -17,7 +17,8 @@ This project is a **4-bit opcode simulator** designed for a **16-bit architectur
 - Includes a built-in **assembler-like environment** where users can write, execute, and save their programs.
 - Allows loading **pre-written programs** from sample files for testing.
 - Future updates will introduce **I/O operations** to enhance simulation capabilities.
-- 🔺 **Note:** The simulator includes an I/O and keyboard interface, allowing for any future I/O implementations.
+⚠️ **Note:** The simulator includes an I/O and keyboard interface, allowing for any future I/O implementations.
+
 
 ## Running the Simulator
 ### Prerequisites
