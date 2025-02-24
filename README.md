@@ -1,4 +1,4 @@
-- # 4-bit Opcode Simulator for 16-bit Architecture
+# 4-bit Opcode Simulator for 16-bit Architecture
 
 ## Overview
 This project is a **4-bit opcode simulator** designed for a **16-bit architecture**. It simulates the execution of machine-level instructions, allowing users to test and understand low-level processing.
