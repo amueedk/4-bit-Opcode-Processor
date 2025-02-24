@@ -1,4 +1,4 @@
-# 4-bit Opcode Simulator for 16-bit Architecture
+- # 4-bit Opcode Simulator for 16-bit Architecture
 
 ## Overview
 This project is a **4-bit opcode simulator** designed for a **16-bit architecture**. It simulates the execution of machine-level instructions, allowing users to test and understand low-level processing.
@@ -41,6 +41,27 @@ This project is a **4-bit opcode simulator** designed for a **16-bit architectur
 - Users can **write their own programs** directly in the simulator and **save** them using the **Save** option in the menu.
 - They can **load and test** sample programs using the **Load** option in the simulator.
 
+## Example Program Format
+Programs are written using mnemonic instructions followed by their respective memory addresses. An example of an **addition program** is as follows:
+
+```
+0: LDA 16  ; Load value from memory address 16 into AC
+1: ADD 17  ; Add value from memory address 17 to AC
+2: STR 18  ; Store result from AC to memory address 18
+3: HAL     ; Halt execution
+
+16: 5      ; First operand
+17: 4      ; Second operand
+18:        ; Result storage
+```
+
+### Indirect Addressing
+For indirect addressing, use the format:
+```
+LDA I 16   ; Load value indirectly from address 16
+```
+Other instructions follow the same format when using indirect addressing.
+
 ## Supported Mnemonics
 ### Memory Reference Instructions
 - **LDA** - Load data from memory to AC
@@ -81,14 +102,7 @@ This project is a **4-bit opcode simulator** designed for a **16-bit architectur
 - **SPO** - Receive data from the serial peripheral interface
 - **SIE** - Set/Reset interrupt enable flag
 
-## NOTE
-The simulator includes a **widget for I/O operations**, but it is **not yet implemented**. Future updates will integrate full I/O functionality.
-
 ## Future Improvements
 - Implement I/O operations.
 - Enhance UI for better usability.
 - Add debugging features.
-
-## Contributions
-Feel free to fork, contribute, or report issues!
-
